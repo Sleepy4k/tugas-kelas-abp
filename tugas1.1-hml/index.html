@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apri Pandu W - 2311102081</title>
+  </head>
+  <body>
+    <form action="submit.php" method="post">
+      <label for="nim">NIM:</label>
+      <input type="number" name="nim" id="nim" value="" />
+      <br />
+      <label for="nama">Nama:</label>
+      <input type="text" name="nama" id="nama" value="" />
+      <br />
+      <label for="dob">Tgl Lahir (dd-mm-yyyy):</label>
+      <input type="date" name="dob" id="dob" value="" />
+      <br />
+      <label for="gender">Jenis Kelamin:</label>
+      <input type="radio" name="gender" id="gender" value="Laki-laki" />
+      Laki-laki
+      <input type="radio" name="gender" id="gender" value="Perempuan" />
+      Perempuan
+      <br />
+      <label for="address">Alamat di Purwokerto:</label>
+      <textarea name="address" id="address" cols="30" rows="5"></textarea>
+      <br />
+      <label for="stay_at">Tinggal di:</label>
+      <select name="stay_at" id="stay_at">
+        <option value="Pilih">Pilih</option>
+        <option value="Kost">Kos/Kontrakan</option>
+        <option value="Rumah Saudara">Rumah Saudara</option>
+        <option value="Rumah Orang Tua">Rumah Orang Tua</option>
+      </select>
+      <br />
+      <label for="hobby">Hobi:</label>
+      <input type="checkbox" name="hobby" id="hobby" value="Science" /> Science
+      <input type="checkbox" name="hobby" id="hobby" value="Technology" />
+      Technology
+      <input type="checkbox" name="hobby" id="hobby" value="Art" /> Art
+      <input type="checkbox" name="hobby" id="hobby" value="Sport" /> Sport
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
